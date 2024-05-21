@@ -1,0 +1,23 @@
+header {
+    background-color : #F2E9D8;
+}
+#head {
+    background-color : #F2E9D8;
+}
+button {
+    background-color : #D97652;
+    color : #FFFFFF;
+    width : 120px;
+    height : 45px;
+    border-radius : 120px;
+    border-color : #D97652;
+}
+#contents {
+    text-align : center;
+}
+strong {
+    color : #D97652;
+}
+#contents h2 {
+    color : #D97652;
+}
