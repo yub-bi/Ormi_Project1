@@ -1,8 +1,34 @@
-header {
+body{
+    display : block;
+    flex-direction: column;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#backcolor {
     background-color : #F2E9D8;
 }
-#head {
-    background-color : #F2E9D8;
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+#intro {
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    margin: 0 auto;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+}
+#head img{
+    height : 800px;
+    position: relative;
+    right: 200px;
 }
 button {
     background-color : #D97652;
@@ -11,6 +37,22 @@ button {
     height : 45px;
     border-radius : 120px;
     border-color : #D97652;
+    font-size : 15px;
+}
+#middleWrap{
+    display: flex;
+}
+#middleWrap img{
+    position: relative;
+    left: 300px; top: 50px;
+    width: 600px;
+    height:400px;
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 #contents {
     text-align : center;
@@ -20,4 +62,70 @@ strong {
 }
 #contents h2 {
     color : #D97652;
+    font-size: 40px;
+}
+.photo img{
+    width : 300px;
+}
+.photo {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.photo il{
+
+}
+#mapintro p{
+    font-size: 20px;
+}
+#subs {
+    background-color: #263140;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 15px;
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+
+}
+#subsintro{
+    display: flex;
+    flex-direction: column;
+
+}
+#subs form{
+    display: flex;
+    background-color:white ;
+    border-radius: 40px;
+    width: 400px;
+    justify-content: space-between;
+}
+#subs input{
+    width : 200px;
+}
+#subs img{
+    position: relative;
+    top: 8px; left: 12px;
+}
+#subs button{
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+#backimg{
+    position: relative;
+    bottom: 100px;
+    z-index: 0;
+}
+#map{
+    margin: 100px auto;
 }
