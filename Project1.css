@@ -57,12 +57,19 @@ button {
 #contents {
     text-align : center;
 }
+
 strong {
     color : #D97652;
 }
 #contents h2 {
     color : #D97652;
     font-size: 40px;
+}
+.cat{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .photo img{
     width : 300px;
