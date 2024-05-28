@@ -72,7 +72,9 @@ strong {
     justify-content: space-around;
 }
 .photo img{
-    width : 300px;
+    width : 388px;
+    height : 388px;
+    border-radius: 30px;
 }
 .photo {
     list-style-type: none;
